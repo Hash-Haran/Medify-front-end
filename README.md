@@ -41,8 +41,11 @@ const API_KEY = '3c962f744c57e6627827a795c9173491';
 graphql
 Copy code
 /Medify-front-end
-  ├── index.html        # Main HTML file
-  ├── style.css         # Styles for the app
+
+  ├── index.html  
+  # Main HTML file
+  ├── style.css   
+  # Styles for the app
   ├── script.js         # JavaScript to handle API calls and dynamic content
 
 **Troubleshooting:**
