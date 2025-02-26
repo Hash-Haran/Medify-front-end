@@ -38,14 +38,10 @@ const API_KEY = '3c962f744c57e6627827a795c9173491';
 4) Use the App: Enter a city name and click "Get Weather" to fetch weather details.
 
 **Folder Structure:**
-graphql
-Copy code
-/Medify-front-end
 
+Medify-front-end
   ├── index.html  
-  
   ├── style.css   
-
   ├── script.js        
   
 **Troubleshooting:**
