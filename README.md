@@ -43,11 +43,11 @@ Copy code
 /Medify-front-end
 
   ├── index.html  
-  # Main HTML file
+  
   ├── style.css   
-  # Styles for the app
-  ├── script.js         # JavaScript to handle API calls and dynamic content
 
+  ├── script.js        
+  
 **Troubleshooting:**
 1) Ensure the city name is correct if the weather is not found.
 2) Verify that the API key is properly set in the script.js file if no data shows up.
