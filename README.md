@@ -25,7 +25,7 @@
 
 bash
 Copy code
-git clone https://github.com/Hsah-Haran/Medify-front-end.git
+git clone https://github.com/Hash-Haran/Medify-front-end.git
 
 2) Set the API Key: In the script.js file, replace the placeholder API key with this key:
 
