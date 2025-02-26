@@ -20,14 +20,31 @@
 
 4) OpenWeatherMap API: A third-party API that provides real-time weather data based on the city name entered by the user.
 
-**How It Works:**
-1) User Input: The user enters a city name into the input field and clicks the "Get Weather" button.
+**How to Run the Code:**
+1) Clone the Repository: Clone this repository to your local machine:
 
-2) API Request: The app makes an API request to OpenWeatherMap with the city name and retrieves the weather data.
+bash
+Copy code
+git clone https://github.com/Hsah-Haran/Medify-front-end.git
 
-3) Display Data: The app displays the weather description, temperature, and humidity for the specified city.
+2) Set the API Key: In the script.js file, replace the placeholder API key with this key:
 
-4) Error Handling: If the city is not found, an error message is displayed.
+javascript
+Copy code
+const API_KEY = '3c962f744c57e6627827a795c9173491'; 
 
-**API Key:**
-You can get your own API key for OpenWeatherMap by signing up at OpenWeatherMap. Replace the placeholder API key in the script.js file with your own key.
+3)Open the App: Navigate to the project folder and open the index.html file in a web browser.
+
+4) Use the App: Enter a city name and click "Get Weather" to fetch weather details.
+
+**Folder Structure:**
+graphql
+Copy code
+/Medify-front-end
+  ├── index.html        # Main HTML file
+  ├── style.css         # Styles for the app
+  ├── script.js         # JavaScript to handle API calls and dynamic content
+
+**Troubleshooting:**
+1) Ensure the city name is correct if the weather is not found.
+2) Verify that the API key is properly set in the script.js file if no data shows up.
