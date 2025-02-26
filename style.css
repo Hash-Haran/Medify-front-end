@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    background-image: url('https://media.giphy.com/media/kjc0dnyOhtd7O/giphy.gif');
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 50px;
+    width: 80%;
+    max-width: 500px;
+    
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4),   /* Darker outer shadow */
+                -10px -10px 30px rgba(255, 255, 255, 0.4); /* Lighter inner shadow */
+    
+    border: 4px solid rgba(4, 136, 136, 0.6); /* Initial glowing border color */
+    background-color: rgba(243, 237, 237, 0.7); /* Slight transparency for the background */
+    
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      border-color: rgba(1, 122, 122, 0.6);
+      box-shadow: 0 0 10px rgba(1, 133, 133, 0.6), 0 0 20px rgba(1, 113, 113, 0.4); /* Glowing effect */
+    }
+    100% {
+      border-color: rgb(1, 97, 97);
+      box-shadow: 0 0 20px rgb(93, 1, 1), 0 0 40px rgba(2, 8, 8, 0.6); /* Stronger glowing effect */
+    }
+  }
+  
+  h1 {
+    color: #02675a;
+  }
+  
+  input {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #00796b;
+  }
+  
+  button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #004d40;
+  }
+  
+  #weather-info p {
+    font-size: 18px;
+    color: #00796b;
+    justify-content: center;
+  }
+  
+  #error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  #city-name-display {
+    color: #00796b; /* Color for the city name */
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #weather-description {
+    color: #021902; /* Color for the weather description */
+    font-size: 20px;
+  }
