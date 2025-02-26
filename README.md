@@ -22,21 +22,20 @@
 
 **How to Run the Code:**
 1) Clone the Repository: Clone this repository to your local machine:
-
-Copy code
 git clone https://github.com/Hash-Haran/Medify-front-end.git
 
 2) Set the API Key: In the script.js file, replace the placeholder API key with this key:
 
 const API_KEY = '3c962f744c57e6627827a795c9173491'; 
 
-3)Open the App: Navigate to the project folder and open the index.html file in a web browser.
+3) Open the App: Navigate to the project folder and open the index.html file in a web browser.
 
 4) Use the App: Enter a city name and click "Get Weather" to fetch weather details.
 
 **Folder Structure:**
 
 Medify-front-end
+
   ├── index.html  
   ├── style.css   
   ├── script.js        
