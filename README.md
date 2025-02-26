@@ -1,4 +1,5 @@
 **Weather App 🌦️**
+
    This is a simple Weather App built using HTML, CSS, and JavaScript. The app allows users to enter a city name and fetch real-time weather data for that location. The weather data is retrieved from the OpenWeatherMap API and displayed on the webpage. The app also features basic error handling to inform the user if the city name is invalid or missing.
 
 **Features:**
